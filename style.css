@@ -1,0 +1,113 @@
+/* Main styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+        background: url(https://cutewallpaper.org/21/wallpapers-for-website/Web-Developer-Wallpaper-84+-images-.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+      background-color: black;
+  }
+  
+  /* Pictures styles */
+  
+  .img-right {
+      width: 10rem;
+      display: block;
+      filter: grayscale(40%);
+      float: right;
+  }
+  
+  .row {
+      position: relative;
+      width: 90vw;
+      left: 6.5vw;
+  }
+  
+  .row img:hover,
+  .row img:active {
+      transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+      filter: grayscale(0%)
+  }
+  
+  /* Text styles */
+  
+  h3 {
+      color: #adad85;
+      text-align: center;
+  }
+  
+  ul {
+   list-style-type: none;
+      text-align: center;
+      width: 90vw;
+      position: relative;
+      left: 3.5vw;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .contact a {
+      color: #adad85;
+  }
+  
+  .list-title {
+      font-size: 1.3em;
+      font-weight: 525;
+  }
+  
+  /* Table styles */
+  
+  caption {
+    color: #adad85;
+    font-size: 1.2em;
+      font-weight: 550;
+  }
+  
+  table {
+      color: #adad85;
+    border-color: #adad85;
+      position: relative;
+      left: 10vw;
+  }
+  
+  .table {
+      width: 80vw;
+  }
+  
+  
+  /* Media query */
+  
+  @media (min-width: 768px){
+  
+      ul {
+      width: 50vw;
+      left: 25vw;
+   }
+  
+    table {
+      left: 15vw;
+   }
+  
+   .table {
+       width: 70vw;
+   }
+  
+      .jumbotron {
+          position: relative;
+      }
+  
+   .img-right {
+       width: 17rem;
+       position: absolute;
+       top: 2rem;
+     right: 8.5rem;
+   }
+  
+  
+  }
